@@ -1,0 +1,43 @@
+:root {
+    --primary-color: #ADD8E6;
+}
+
+body {
+    background-color: var(--primary-color);
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #1A5276;
+    text-align: center;
+    color: white;
+    padding: .75rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+}
+
+.answer-btn {
+    display: block;
+    margin: .5rem;
+    padding: 1rem;
+    width: 10rem;
+    border-radius: 0.5rem;
+    background-color: var(--primary-color);
+    align-items: center;
+    justify-content: center;
+}
+
+.answerOptions-div {
+    justify-content: center;
+    display: flex;
+}
+
+.questions-div {
+    justify-content: center;
+    display: flex;
+}
